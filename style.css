@@ -11,11 +11,18 @@ main{
     background-color: gray;
 }
 
+.riga-prodotti{
+    margin: 10px 100px;
+}
 
-.riga-prodotti {
-    width:600px;
-    heigh: 400px;
+.riga-prodotti span{
+    width: 5px;
+    height: 2px;
+    background-color: red;
+}
+
+.riga-prodotti img {
+    width:200px;
+    height: 200px;
     border: 2px solid black;
-
-
 }
