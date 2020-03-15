@@ -5,12 +5,10 @@
 }
 
 section{
-    padding-left: 100px;
-    padding-top: 10px;
+    padding: 10px 100px;
     width: 100%;
     height: 100%;
     background-color: gray;
-    position:relative;
 }
 
 h1 {
@@ -26,6 +24,7 @@ h1 {
     height: 270px;
     background-size: cover;
     border: 5px solid lightgray;
+    position:relative;
 }
 
 .riga-prodotti2 {
@@ -34,7 +33,9 @@ h1 {
     height: 270px;
     background-size: cover;
     border: 5px solid lightgray;
+    position: relative;
 }
+
 .riga-prodotti1:first-child {
     background-image: url("img/braun.png");
 }
@@ -65,7 +66,7 @@ h1 {
     height: 20px;
     color: white;
     text-align: center;
-    position:relative;
+    position: absolute;
     top:0;
     right: 0;
 }
@@ -81,9 +82,20 @@ h1 {
 .box-blu {
     background-color: blue;
 }
+
 .testo {
-    
+    font-size: 15px;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translate( 50%, -50%);
+
 }
 .riga-prodotti1:hover h1 , .riga-prodotti2:hover h1 {
     opacity: 1;
+}
+
+.riga-prodotti1:hover p , .riga-prodotti2:hover p {
+    color: rgba(255, 192, 203, 0.8);
 }
